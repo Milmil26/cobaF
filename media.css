@@ -1,0 +1,330 @@
+@media screen and (max-width:1366px) {
+    header .header_bx {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:1180px) {
+    header .header_bx {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    header .header_bx nav .menu_hum ul li {
+        margin-left: 17px;
+    }
+    header .header_bx nav .menu_hum ul li a {
+        font-size: 11.5px;
+    }
+    .skill_bx {
+        width: 85%;
+    }
+    .services {
+        width: 80%;
+    }
+    .project {
+        width: 75%;
+    }
+    .client_data .cards {
+        width: 80%;
+    }
+    .exp_bx .cards {
+        width: 100%;
+    }
+    .mind_bx .card {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width:840px) {
+    header .header_bx {
+        width: 95%;
+    }
+    header .header_bx nav .menu_hum ul li {
+        margin-left: 13px;
+    }
+    .skill_bx {
+        width: 90%;
+    }
+    .services {
+        width: 95%;
+    }
+    .project {
+        width: 82%;
+    }
+    .exp_bx .cards {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width:767px) {
+    header .header_bx {
+        width: 97%;
+    }
+    header::before {
+        width: 59%;
+        right: -12%;
+    }
+    .project {
+        width: 86%;
+    }
+    .exp_bx .cards {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:700px) {
+    header {
+        height: 650px;
+    }
+    header::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 61.7%;
+        background: #00635a;
+        right: 0%;
+        transform: unset;
+        z-index: -1;
+    }
+    header::after {
+        content: '';
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        background: #fff;
+        border-radius: 50%;
+        top: -100px;
+        left: -55px;
+        z-index: -1;
+    }
+    header .header_bx nav .menu_hum #menu_btn{
+        display: flex;
+        cursor: pointer;
+    }
+    header .header_bx nav .menu_hum ul {
+        flex-direction: column;
+        position: absolute;
+        top: -300px;
+        right: 350%;
+        width: 150px;
+        background: rgb(184,184,184,.2);
+        border-radius: 10px;
+        z-index: 999999999999999;
+        transition: 1s linear;
+    }
+    header .header_bx nav .menu_hum ul li {
+        padding: 10px 5px;
+    }
+    /* javascript class start */
+    header .header_bx nav .menu_hum .ul_active{
+        top: 50px;
+    }
+    /* javascript class end */
+    header .header_bx .content {
+        flex-direction: column-reverse;
+    }
+    header .header_bx .content .img_bx {
+        width: 100%;
+        height: 60%;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    header .header_bx .content .img_bx img {
+        width: 280px;
+    }
+    header .header_bx .content .cont_bx {
+        width: 70%;
+        height: 40%;
+        margin: auto;
+    }
+    header .header_bx .weather {
+        height: 60%;
+        top: 0;
+    }
+    .skill_bx {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 30px;
+        height: auto;
+    }
+    .skill_bx .skill_img_bx,
+     .skill_cont_bx {
+        width: 90%;
+    }
+    .skill_bx .skill_img_bx{
+        justify-content: flex-end;
+        display: flex;
+    }
+    .services .cards {
+        justify-content: space-between;
+    }
+    .services {
+        width: 95%;
+    }
+    .services .cards .card {
+        width: 250px;
+    }
+    .client_data .cards .card .cont p {
+        font-size: 10px;
+    }
+    .project {
+        width: 95%;
+    }
+    .client_data .cards {
+        width: 90%;
+    }
+    .exp_bx .cards .card {
+        width: 470px;
+    }
+    .exp_bx .cards .card:nth-child(2) {
+        width: 470px;
+        flex-direction: unset;
+        margin: 0;
+    }
+    .mind_bx .card {
+        width: 95%;
+    }
+    .mind_bx .card .cont h4 {
+        font-size: 17px;
+    }
+    .mind_bx .card .cont p {
+        font-size: 7px;
+    }
+}
+
+@media screen and (max-width:541px) {
+    header .header_bx .content .cont_bx {
+        width: 90%;
+    }
+    .services .cards {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .services .cards .card {
+        width: 330px;
+    }
+    .project {
+        width: 85%;
+    }
+    .project .cards .card {
+        min-width: 345px;
+        height: 240px;
+    }
+    .client_data .cards {
+        flex-wrap: wrap;
+    }
+    .client_data {
+        padding: 30px 0px;
+        margin-top: 30px
+    }
+    .exp_bx .cards .card .pra {
+        width: 200px;
+        padding: 8.5px;
+        font-size: 8.5px;
+    }
+    .mind_bx .card {
+        padding: 10px;
+    }
+    .mind_bx .card .cont h4 {
+        font-size: 13px;
+    }
+    .mind_bx .card .cont, .btn {
+        width: 65%;
+    }
+    .mind_bx .card .btn {
+        width: 35%;
+    }
+    footer ul li a {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:411px) {
+    .client_data .cards {
+        width: 96%;
+        flex-wrap: wrap;
+    }
+    .project {
+        width: 88%;
+    }
+    footer ul li a {
+        font-size: 11px;
+    }
+    footer ul li {
+        margin-right: 8px;
+    }
+    .exp_bx .cards .card .cont p {
+        font-size: 8px;
+    }
+    .exp_bx {
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width:375px) {
+    element.style {
+        margin-right: 30px;
+    }
+    .exp_bx .cards .card .pra {
+        width: 180px;
+        font-size: 8.1px;
+    }
+    .exp_bx .cards .card:nth-child(2) .pra {
+        width: 180px;
+        font-size: 8.1px;
+    }
+    .project {
+        width: 92%;
+    }
+    .client_data .cards .card {
+        width: 155px;
+    }
+    .client_data {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:360px) {
+    header .header_bx .content .cont_bx p {
+        font-size: 10px;
+        width: 280px;
+    }
+    .skill_bx .skill_img_bx {
+        justify-content: flex-start;
+        margin-left: -20px;
+    }
+    .client_data .cards {
+        width: 97%;
+    }
+    .exp_bx .cards .card .pra {
+        width: 150px;
+        font-size: 7.5px;
+    }
+    .exp_bx .cards .card:nth-child(2) .pra {
+        width: 150px;
+        font-size: 7.5px;
+    }
+    .exp_bx .cards .card .cont h5 {
+        font-size: 12px;
+    }
+    .mind_bx .card .btn {
+        width: 30%;
+    }
+    .mind_bx .card .btn button {
+        padding: 5px 10px;
+    }
+    footer ul li {
+        margin-right: 7px;
+    }
+    footer ul li a {
+        font-size: 9px;
+    }
+    footer h4 {
+        font-size: 15px;
+    }
+}
